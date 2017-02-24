@@ -1,4 +1,4 @@
-From 8e9745656e24645280e7b5ad1a73d40e82645e6c Mon Sep 17 00:00:00 2001
+From 75f38ae354d32d98f1bf8ad890ceff9f5fbcd70f Mon Sep 17 00:00:00 2001
 From: Jose Luis Rivero <jrivero@osrfoundation.org>
 Date: Fri, 24 Feb 2017 14:22:53 +0100
 Subject: [PATCH 3/3] Use CATKIN_PACKAGE_BIN_DESTINATION for gradlew executable
