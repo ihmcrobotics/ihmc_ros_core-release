@@ -1,22 +1,24 @@
-From a0dc498a69f92b3b8775c23f64205728e0fc0d89 Mon Sep 17 00:00:00 2001
+From 759c72fb86c489eca85cf6715fb431f3245b13e7 Mon Sep 17 00:00:00 2001
 From: Jose Luis Rivero <jrivero@osrfoundation.org>
-Date: Fri, 24 Feb 2017 14:22:53 +0100
-Subject: [PATCH 3/4] Use CATKIN_PACKAGE_BIN_DESTINATION for gradlew executable
+Date: Fri, 24 Feb 2017 19:52:02 +0100
+Subject: [PATCH 4/4] Revert "Use CATKIN_PACKAGE_BIN_DESTINATION for gradlew
+ executable"
 
+This reverts commit a0dc498a69f92b3b8775c23f64205728e0fc0d89.
 ---
  CMakeLists.txt | 4 ++--
  1 file changed, 2 insertions(+), 2 deletions(-)
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index b78cc39..c307c05 100644
+index c307c05..b78cc39 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
 @@ -20,7 +20,7 @@ install(FILES
  
  install(PROGRAMS
   gradlew
-- DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
-+ DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+- DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
++ DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
  )
  
  install(DIRECTORY gradle
@@ -25,8 +27,8 @@ index b78cc39..c307c05 100644
  install(DIRECTORY buildSrc
    DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 -)
-\ No newline at end of file
 +)
+\ No newline at end of file
 -- 
 2.7.4
 

@@ -1,7 +1,7 @@
-From 0aff85fab85b8d1c3e052884427c589a2c00b9f9 Mon Sep 17 00:00:00 2001
+From 657a786623a549c75a76ce6c4fb295c022992289 Mon Sep 17 00:00:00 2001
 From: Jose Luis Rivero <jrivero@osrfoundation.org>
 Date: Fri, 24 Feb 2017 14:21:01 +0100
-Subject: [PATCH 2/3] Revert "Revert "Making gradlew executable""
+Subject: [PATCH 2/4] Revert "Revert "Making gradlew executable""
 
 This reverts commit 8449fd189f8d60dbf52786f2e6b223b4547b7b93.
 j-rivero: this should back gradlew to be installed as a program
