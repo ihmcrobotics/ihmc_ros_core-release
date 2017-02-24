@@ -1,4 +1,4 @@
-From 709a6b5a5871f845e2b9971c347fb543add75fa3 Mon Sep 17 00:00:00 2001
+From d9b80971c098f406b7671f32e10144c2d38191f7 Mon Sep 17 00:00:00 2001
 From: Jose Luis Rivero <jrivero@osrfoundation.org>
 Date: Thu, 23 Feb 2017 14:45:58 +0100
 Subject: [PATCH 1/2] Revert "Add geometry_msgs dependency"
