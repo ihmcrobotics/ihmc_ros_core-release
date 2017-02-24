@@ -15,8 +15,12 @@ catkin_package(
 install(FILES
   build.gradle
   settings.gradle
-  gradlew
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+)
+
+install(PROGRAMS
+ gradlew
+ DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
 install(DIRECTORY gradle
