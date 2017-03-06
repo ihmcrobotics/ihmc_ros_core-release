@@ -1,4 +1,4 @@
-From 759c72fb86c489eca85cf6715fb431f3245b13e7 Mon Sep 17 00:00:00 2001
+From 177390e1c9b381b7c91904472dc36703b1331ba6 Mon Sep 17 00:00:00 2001
 From: Jose Luis Rivero <jrivero@osrfoundation.org>
 Date: Fri, 24 Feb 2017 19:52:02 +0100
 Subject: [PATCH 4/4] Revert "Use CATKIN_PACKAGE_BIN_DESTINATION for gradlew
