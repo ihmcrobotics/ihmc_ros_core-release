@@ -1,3 +1,30 @@
+## ihmc_ros_core (indigo) - 0.9.2-0
+
+The packages in the `ihmc_ros_core` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --track indigo --ros-distro indigo ihmc_ros_core` on `Mon, 06 Mar 2017 22:58:46 -0000`
+
+These packages were released:
+- `ihmc_msgs`
+- `ihmc_ros_common`
+- `ihmc_ros_core`
+- `ihmc_ros_java_adapter`
+
+Version of package(s) in repository `ihmc_ros_core`:
+
+- upstream repository: https://github.com/ihmcrobotics/ihmc_ros_core.git
+- release repository: https://github.com/ihmcrobotics/ihmc_ros_core-release.git
+- rosdistro version: `0.9.1-4`
+- old version: `0.9.1-4`
+- new version: `0.9.2-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.24`
+- catkin_pkg version: `0.3.1`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.7`
+- vcstools version: `0.1.38`
+
+
 ## ihmc_ros_core (indigo) - 0.9.1-4
 
 The packages in the `ihmc_ros_core` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --track indigo --ros-distro indigo ihmc_ros_core` on `Fri, 24 Feb 2017 18:54:10 -0000`
